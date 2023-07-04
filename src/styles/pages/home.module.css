@@ -1,0 +1,11 @@
+.homeContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+  gap: 10rem;
+}
+
+.cardContainer {
+  text-align: center;
+}

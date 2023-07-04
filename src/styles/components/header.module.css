@@ -1,0 +1,13 @@
+.headerContainer {
+  background-color:var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem;
+}
+
+.headerImage {
+  width: 40%;
+}

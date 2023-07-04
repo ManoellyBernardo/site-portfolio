@@ -1,0 +1,12 @@
+.footerContainer {
+  background-color: var(--purple-dark);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  color: var(--primary);
+  font-size: 1rem;
+}

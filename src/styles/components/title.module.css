@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.title {
+  font-size: 4rem;
+  color: var(--dark);
+  font-family: 'Pacifico', cursive;
+}
