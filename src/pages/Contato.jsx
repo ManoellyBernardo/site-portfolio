@@ -43,38 +43,36 @@ const Contato = () => {
   }
 
   return (
-    <>
-      <main>
-        <Header textTitle='Entre em contato' image={contato_image} />
-        <form className={styles.form} onSubmit={handleSubmit}>
-          <input
-            className={styles.formInput}
-            type="text"
-            placeholder='Digite seu nome'
-            onChange={handleInputNome}
-            value={nome}
-          />
-          <input
-            className={styles.formInput}
-            type="email"
-            placeholder='Digite seu email'
-            onChange={handleInputEmail}
-            value={email}
-          />
-          <textarea
-            className={styles.formInput}
-            type="text"
-            placeholder='Digite seu nome'
-            onChange={handleInputMensagem}
-            value={mensagem}
-          />
-          <button
-            className={styles.formButton}
-            type="submit">Enviar Mensagem
-          </button>
-        </form>
-      </main>
-    </>
+    <main>
+      <Header textTitle='Entre em contato' image={contato_image} />
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <input
+          className={styles.formInput}
+          type="text"
+          placeholder='Digite seu nome'
+          onChange={handleInputNome}
+          value={nome}
+        />
+        <input
+          className={styles.formInput}
+          type="email"
+          placeholder='Digite seu email'
+          onChange={handleInputEmail}
+          value={email}
+        />
+        <textarea
+          className={styles.formInput}
+          type="text"
+          placeholder='Digite seu nome'
+          onChange={handleInputMensagem}
+          value={mensagem}
+        />
+        <button
+          className={styles.formButton}
+          type="submit">Enviar Mensagem
+        </button>
+      </form>
+    </main>
   )
 }
 

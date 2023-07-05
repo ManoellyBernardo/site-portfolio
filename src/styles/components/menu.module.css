@@ -13,3 +13,18 @@
   color: var(--dark);
   font-size: 1.5rem;
 }
+
+/*Responsividade:*/
+
+@media (max-width: 820px) {
+  .menuContainer{
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .menuContainer{
+    flex-direction: column;
+    gap: .5rem;
+  }
+}

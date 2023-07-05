@@ -9,3 +9,11 @@
 .cardContainer {
   text-align: center;
 }
+
+@media (max-width: 930px) {
+  .homeContainer {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+  }
+}
